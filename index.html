@@ -4,16 +4,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
-  <title>jQuery To Do List</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>jQuery To-Do List</title>
 </head>
 <body>
-
-
-<script
+  
+  <div class="container">
+    <h2>To-Do List App</h2>
+		<p><em> Double click to mark an item off, click on "X" to delete an item, and drag items to reorder.</em></p>
+		<form name="toDoList" class="form">
+      <input type="text" name="ListItem" id="input" class="input"/>
+		</form>
+    
+		<div id="button" class="btn">Add</div>
+		<br/>
+		<ol id="list"></ol>
+  </div>
+  <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="./js/script.js"></script>
 </body>
 </html>
